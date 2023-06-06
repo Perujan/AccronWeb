@@ -1,0 +1,728 @@
+
+
+.breadcrumb_bg {
+    background-image: url("../Assets/new/bc4\ .png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* line 4, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_breadcrumb.scss */
+  .breadcrumb {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  
+  /* line 8, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_breadcrumb.scss */
+  .breadcrumb:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    content: "";
+    opacity: 0.6;
+    z-index: -1;
+  }
+  
+  /* line 19, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_breadcrumb.scss */
+  .breadcrumb .breadcrumb_iner {
+    height: 300px;
+    width: 100%;
+    display: table;
+  }
+  
+  /* line 23, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_breadcrumb.scss */
+  .breadcrumb .breadcrumb_iner .breadcrumb_iner_item {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  /* line 26, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_breadcrumb.scss */
+  .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 26, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_breadcrumb.scss */
+    .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
+      font-size: 35px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 26, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_breadcrumb.scss */
+    .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
+      font-size: 35px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 26, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_breadcrumb.scss */
+    .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
+      font-size: 40px;
+    }
+  }
+  
+  /* line 45, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_breadcrumb.scss */
+  .breadcrumb .breadcrumb_iner .breadcrumb_iner_item p {
+    font-size: 15px;
+    color: #fff;
+  }
+  
+  /* line 49, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_breadcrumb.scss */
+  .breadcrumb .breadcrumb_iner .breadcrumb_iner_item span {
+    margin: 0px 5px;
+    font-size: 12px;
+  }
+  
+  /* line 58, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_breadcrumb.scss */
+  .breadcrumb {
+    margin-bottom: 0px !important;
+  }
+  /* line 2, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+.about_part {
+    position: relative;
+    z-index: 1;
+    padding: 80px 0px;
+  }
+  
+  /* line 7, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+  .about_part .about_text h5 {
+    font-family: "Lora", serif;
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 18px;
+  }
+  
+  /* line 13, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+  .about_part .about_text h4 {
+    margin-bottom: 25px;
+    color: #ff6426;
+    font-size: 24px;
+    font-weight: 300;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 13, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+    .about_part .about_text h4 {
+      margin-bottom: 20px;
+      font-size: 17px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 13, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+    .about_part .about_text h4 {
+      margin-bottom: 20px;
+      font-size: 17px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 13, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+    .about_part .about_text h4 {
+      margin-bottom: 20px;
+      font-size: 17px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 13, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+    .about_part .about_text h4 {
+      margin-bottom: 20px;
+      font-size: 17px;
+    }
+  }
+  
+  /* line 35, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+  .about_part .about_text h2 {
+    line-height: 1.25;
+    margin-bottom: 25px;
+    font-size: 40px;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 35, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+    .about_part .about_text h2 {
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 35, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+    .about_part .about_text h2 {
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 35, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+    .about_part .about_text h2 {
+      font-size: 25px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 35, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+    .about_part .about_text h2 {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  /* line 54, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+  .about_part .about_text p {
+    margin-top: 13px;
+  }
+  
+  /* line 57, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+  .about_part .about_text .btn_3 {
+    margin-top: 48px;
+  }
+  
+  /* line 62, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+  .about_bg {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* line 65, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+  .about_bg:after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    bottom: 133px;
+    z-index: -1;
+    background: url() bottom right no-repeat; /*images on right */
+    background-size: 15% 60%;
+    right: 0px;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 65, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+    .about_bg:after {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 65, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/Accron-csss coding snippet/sass/_about.scss */
+    .about_bg:after {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 65, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippet/about.scss */
+    .about_bg:after {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 65, E:/169 Accron-csss coding snippet/169 Accron-csss coding snippetabout.scss */
+    .about_bg:after {
+      background-size: 15% 50%;
+    }
+  }
+  /*team part */
+
+/**************** blog part css start ****************/
+@media (max-width: 576px) {
+    /* line 3, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+    .blog_item_section .single_blog_item {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 3, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+    .blog_item_section .single_blog_item {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 3, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+    .blog_item_section .single_blog_item {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* line 17, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+  .blog_item_section .single_blog_item:hover .single_blog_text {
+    border: 1px solid transparent;
+    box-shadow: 0px 15px 30px rgba(115, 113, 127, 0.1);
+    background-color: #fff;
+  }
+  
+  /* line 23, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+  .blog_item_section .single_blog_item:hover .btn_3 {
+    color: #ff6426;
+  }
+  
+  /* line 25, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+  .blog_item_section .single_blog_item:hover .btn_3 a {
+    color: #ff6426;
+  }
+  
+  /* line 28, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+  .blog_item_section .single_blog_item:hover .btn_3 img {
+    transform: rotateX(-180deg);
+    margin-bottom: 7px;
+  }
+  
+  /* line 36, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+  .blog_item_section .single_blog_img img {
+    width: 100%;
+    float:right;
+  }
+  
+  /* line 40, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+  .blog_item_section .single_blog_text {
+    padding: 40px 30px;
+    border: 1px solid #e7e7e7;
+    border-radius: 100px 0px 623px 77px / 0px 50px 128px 58px;
+    background-color: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+
+  }
+  
+  @media (max-width: 576px) {
+    /* line 40, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+    .blog_item_section .single_blog_text {
+      padding: 20px 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 40, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+    .blog_item_section .single_blog_text {
+      padding: 20px 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 40, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+    .blog_item_section .single_blog_text {
+      padding: 25px 15px;
+    }
+  }
+  
+  /* line 60, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+  .blog_item_section .single_blog_text h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 60, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+    .blog_item_section .single_blog_text h3 {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 60, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+    .blog_item_section .single_blog_text h3 {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 60, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+    .blog_item_section .single_blog_text h3 {
+      font-size: 20px;
+    }
+  }
+  
+  /* line 79, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+  .blog_item_section .single_blog_text .btn_3 {
+    color: #2c3033;
+    margin-top: 28px;
+    text-transform: capitalize;
+  }
+  
+  /* line 89, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+  .blog_section .single_blog_text .date .date_item {
+    color: #2c3033;
+    font-size: 15px;
+    margin-right: 19px;
+  }
+  
+  /* line 93, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+  .blog_section .single_blog_text .date .date_item span {
+    color: #ff6426;
+  }
+  
+  /* line 98, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+  .blog_section .single_blog_text h3 {
+    font-size: 24px;
+    color: #2c3033;
+    line-height: 1.458;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  
+  /* line 105, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+  .blog_section .single_blog_text h3 a {
+    color: #2c3033;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 98, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+    .blog_section .single_blog_text h3 {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 98, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+    .blog_section .single_blog_text h3 {
+      font-size: 20px;
+    }
+  }
+  
+  /* line 121, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+  .blog_section .single_blog_text .btn_3 {
+    margin-top: 25px;
+  }
+  
+  /* line 123, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_blog_part.scss */
+  .blog_section .single_blog_text .btn_3 img {
+    margin-bottom: 8px;
+  }
+  
+/**************** chefs_part css start ****************/
+/* line 4, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_chefs_part.scss */
+.chefs_part .single_blog_item h3 {
+    margin-bottom: 12px !important;
+  }
+  
+  /* line 8, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_chefs_part.scss */
+  .chefs_part .single_blog_item .social_icon {
+    margin-top: 35px;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 8, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_chefs_part.scss */
+    .chefs_part .single_blog_item .social_icon {
+      margin-top: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 8, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_chefs_part.scss */
+    .chefs_part .single_blog_item .social_icon {
+      margin-top: 15px;
+    }
+  }
+  
+  /* line 22, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_chefs_part.scss */
+  .chefs_part .single_blog_item .social_icon a {
+    border: 1px solid #e2e5e7;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    font-size: 12px;
+    display: inline-block;
+    color: #949798;
+    line-height: 37px;
+    margin: 0px 8px;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 22, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_chefs_part.scss */
+    .chefs_part .single_blog_item .social_icon a {
+      margin: 0px 5px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 22, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_chefs_part.scss */
+    .chefs_part .single_blog_item .social_icon a {
+      margin: 0px 5px;
+    }
+  }
+  
+  /* line 43, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_chefs_part.scss */
+  .chefs_part .single_blog_item .social_icon a:hover {
+    background-color: #ff6426;
+    color: #fff !important;
+    border: 1px solid #ff6426;
+  }
+
+/*carousel*/
+  .carousel {
+    position: relative;
+  }
+  
+  .carousel.pointer-event {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+  }
+  
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-inner::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  
+  .carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: -webkit-transform 0.6s ease-in-out;
+    -o-transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .carousel-item {
+      -webkit-transition: none;
+      -o-transition: none;
+      transition: none;
+    }
+  }
+  
+  .carousel-item.active,
+  .carousel-item-next,
+  .carousel-item-prev {
+    display: block;
+  }
+  
+  /* rtl:begin:ignore */
+  .carousel-item-next:not(.carousel-item-start),
+  .active.carousel-item-end {
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  
+  .carousel-item-prev:not(.carousel-item-end),
+  .active.carousel-item-start {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  
+  /* rtl:end:ignore */
+  .carousel-fade .carousel-item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+  
+  .carousel-fade .carousel-item.active,
+  .carousel-fade .carousel-item-next.carousel-item-start,
+  .carousel-fade .carousel-item-prev.carousel-item-end {
+    z-index: 1;
+    opacity: 1;
+  }
+  
+  .carousel-fade .active.carousel-item-start,
+  .carousel-fade .active.carousel-item-end {
+    z-index: 0;
+    opacity: 0;
+    -webkit-transition: opacity 0s 0.6s;
+    -o-transition: opacity 0s 0.6s;
+    transition: opacity 0s 0.6s;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .carousel-fade .active.carousel-item-start,
+    .carousel-fade .active.carousel-item-end {
+      -webkit-transition: none;
+      -o-transition: none;
+      transition: none;
+    }
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: black;
+    text-align: center;
+    background: none;
+    border: 0;
+    opacity: 0.9;
+    -webkit-transition: opacity 0.15s ease;
+    -o-transition: opacity 0.15s ease;
+    transition: opacity 0.15s ease;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .carousel-control-prev,
+    .carousel-control-next {
+      -webkit-transition: none;
+      -o-transition: none;
+      transition: none;
+    }
+  }
+  
+  .carousel-control-prev:hover, .carousel-control-prev:focus,
+  .carousel-control-next:hover,
+  .carousel-control-next:focus {
+    color: #F53838;
+    text-decoration: none;
+    outline: 0;
+    opacity: 0.9;
+  }
+  
+  .carousel-control-prev {
+    left: 0;
+  }
+  
+  .carousel-control-next {
+    right: 0;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    gap: 2rem;
+  }
+  
+  /* rtl:options: {
+    "autoRename": true,
+    "stringMap":[ {
+      "name"    : "prev-next",
+      "search"  : "prev",
+      "replace" : "next"
+    } ]
+  } */
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23F53838' class='bi bi-arrow-left-circle' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z'/%3E%3C/svg%3E");
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23F53838' class='bi bi-arrow-right-circle' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z'/%3E%3C/svg%3E");
+  }
+  
+  .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #F53838;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 0 solid transparent;
+    border-bottom: 0 solid transparent;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.6s ease;
+    -o-transition: opacity 0.6s ease;
+    transition: opacity 0.6s ease;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .carousel-indicators [data-bs-target] {
+      -webkit-transition: none;
+      -o-transition: none;
+      transition: none;
+    }
+  }
+  
+  .carousel-indicators .active {
+    opacity: 1;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .carousel-dark .carousel-control-prev-icon,
+  .carousel-dark .carousel-control-next-icon {
+    -webkit-filter: invert(1) grayscale(100);
+    filter: invert(1) grayscale(100);
+  }
+  
+  .carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #000;
+  }
+  
+  .carousel-dark .carousel-caption {
+    color: #000;
+  }
+  

@@ -1,0 +1,134 @@
+/* 
+---------------------------------------------
+Services Style
+--------------------------------------------- 
+*/
+.breadcrumb_bg1 {
+  background-image: url("../Assets/new/bc4\ .png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services {
+    padding-top: 130px;
+    position: relative;
+  }
+  
+ 
+  
+  .services .container-fluid {
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+  
+  .services:after {
+    content: '';
+    background-image: url();
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: -300px;
+    width: 261px;
+    height: 368px;
+    z-index: 0;
+  }
+  
+  .services:before {
+    content: '';
+    background-image: url();
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1136px;
+    height: 244px;
+    z-index: 0;
+  }
+  
+ 
+  
+  
+  
+  .service-item {
+    position: relative;
+    z-index: 1;
+    padding: 30px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    border-top-right-radius: 50px;
+    transition: all .3s;
+  }
+  
+  .service-item .icon {
+    margin-left: 0px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    height: 5rem;
+    
+    transition: all .3s;
+  }
+  
+  .service-item h4 {
+    transition: all .3s;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .service-item p {
+    transition: all .3s;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .service-item:hover h4,
+  .service-item:hover p,
+  .service-item:hover .text-button a {
+    color: #fff;
+  }
+  
+  .first-service .icon {
+    background-image: url();
+  }
+  
+  .first-service:hover .icon {
+    background-image: url();
+  }
+  
+  .second-service .icon {
+    background-image: url();
+  }
+  
+  .second-service:hover .icon {
+    background-image: url();
+  }
+  
+  
+  .third-service .icon {
+    background-image: url();
+  }
+  
+  .third-service:hover .icon {
+    background-image: url();
+  }
+  
+  .fourth-service .icon {
+    background-image: url();
+  }
+  
+  .fourth-service:hover .icon {
+    background-image: url();
+  }
+  
+  .service-item:hover {
+    background-image: url(../Assets/services/service-bg.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+
+  
+  
