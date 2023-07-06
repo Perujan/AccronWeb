@@ -70,3 +70,60 @@
 .team-item:hover .team-overlay {
   opacity: 1;
 }
+
+.py-7 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  /* background-color: #fff; */
+}
+
+.col-md-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+
+.col-lg-5 {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #000;
+font-size: 45px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+line-height: 138.7%;
+}
+
+p {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+}
+

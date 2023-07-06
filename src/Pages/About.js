@@ -1,5 +1,6 @@
 import ProjectA from "../Components/Cl"
-import "../Pages/About.css"
+// import "../Pages/About.css"
+import "../Components/Cl.css"
 import { useTypewriter } from 'react-simple-typewriter'
 
 import Project from '../Components/project'
@@ -24,7 +25,7 @@ function About() {
     
     {/***** Content 1 *****/}
     <br/>
-    <section class="breadcrumb breadcrumb_bg">
+    {/* <section class="breadcrumb breadcrumb_bg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -37,13 +38,13 @@ function About() {
                 </div>
             </div>
         </div>
-    </section>
+    </section> */}
     <br/>
     {/***** Content 1 end *****/}
 
         {/***** Content 2 *****/}
 
-        <section class="py-6 bg-dark">
+        {/* <section class="py-6 bg-dark">
 
         <div class="container">
           <div class="row align-items-center text-white">
@@ -56,12 +57,12 @@ function About() {
         </div>
    
 
-      </section>
+      </section> */}
         
  <br/><br/>
      
     {/***** Content 2 end *****/}
-    <ProjectA/>
+    {/* <ProjectA/>
     
      
      <section class="py-7">
@@ -85,9 +86,9 @@ function About() {
 </div>
 
 
-</section>
+</section> */}
 
-    
+<Project/>
   <br/>
    
 
@@ -155,7 +156,7 @@ function About() {
                           <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-3.png" alt="" />
                             <div class="flex-1 ms-3">
                               <h6 class="mb-0 fs--1 text-1000 fw-medium">VDBA Thanukanth</h6>
-                              <p class="fs--2 fw-normal mb-0">Srilank , Vavuniya </p>
+                              <p class="fs--2 fw-normal mb-0">Srilanka , Vavuniya </p>
                             </div>
                           </div>
                           <div class="d-flex align-items-center"><span class="text-900 me-3">4.8</span>
@@ -321,7 +322,7 @@ function About() {
 
     {/***** Content 5 end *****/}
       {/**ghhghghghhhghhjhj */}
-      <Project/>
+      
       
     </>
   )

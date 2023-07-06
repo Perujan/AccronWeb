@@ -4,15 +4,21 @@
   --kd:#2a2c3b;
 }
 
-.bg-offer {
-  background: linear-gradient(rgba(5, 5, 5, .4), rgba(5, 4, 5, .9)), url(../Assets/new/sd-2.jpg) center center no-repeat;
-  background-size: cover;
+.text{
+  color: black;
 }
+.bg-offer {
+  background: linear-gradient(#ffffff 0% , rgb(90, 90, 90)), ;
+  background-size: cover;
+  
+}
+
+
 .bg-hmp {
   background: #2a2c3b ;
   background-size: cover;
   width: 100%;
-  height: 60rem;
+  height: 68rem;
   border-top: 2rem solid #252425;
     border-bottom:1rem solid #252425;
     border-radius: 5rem;
@@ -21,13 +27,25 @@
    
 
 }
+
+.lead1 {
+  text-align: center;
+  text-decoration: blink;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin: 6px;
+}
+
 .bg-hmp1{
   background: linear-gradient(rgba(5, 5, 5, .4), rgba(5, 4, 5, .9)), url(../Assets/new/homebackp.jpg) center center no-repeat;
   background-size: cover;
   
 }
 .lead{
-  color:#ff2cb4 ;
+  color:#000000 ;
   
   
 }
@@ -220,14 +238,14 @@ features
 --------------------------------------------- 
 */
 .features-small-item {
-  cursor: pointer;
+  /* cursor: pointer; */
   display: block;
-  background: #FFFFFF;
+  background: rgb(255, 255, 255);
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  padding: 30px;
+  padding: 25px;
   text-align: center;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -238,8 +256,12 @@ features
   
 }
 
+.features-small-item:hover{
+  box-shadow: rgb(0, 0, 0) 0px 3px 16px 6px;
+}
+
 .features-small-item:hover .icon {
-  background-color: #ff589e;
+  background-color: #1b0e13;
 }
 
 .features-small-item .icon {
@@ -253,7 +275,7 @@ features
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #8261ee;
+  background: #fbfbfb;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -292,3 +314,35 @@ features
   z-index: 2;
 }
 
+.welcome area h1{
+  text-align: center;
+  font-size: 2px;
+}
+
+.h1, h1 {
+  font-size: calc(40px);
+  padding: 14px 25px;
+}
+
+p {
+  margin-top: 2;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center!important;
+  margin: 5px;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--bs-text-opacity))!important;
+}
+
+/* .btn-danger {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+} */

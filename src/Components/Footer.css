@@ -1,6 +1,6 @@
 
 .footer{
-	background:#000;
+	background:linear-gradient( 90deg,#032F19 0% , rgb(31, 30, 30) 110% );
 	padding:10px 0px;
 	font-family: 'Play', sans-serif;
 	text-align:center;

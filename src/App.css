@@ -1,38 +1,202 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
+
+.header-bg {
+    min-height: 100vh;
+    background: url("./Assets/header-bg.svg");
+    background-size: cover;
+}
+
+.nav-menu-item {
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.active-menu {
+    color: #BB2198 !important;
+    border-bottom: 3px solid #BB2198 !important;
+
+}
+
+.nav-menu-item:hover {
+    border-bottom: 3px solid #BB2198 !important;
+    color: #BB2198;
+}
+
+.talk-us-btn {
+    border-radius: 20px;
+    background: linear-gradient(140deg, #37013F 0%, #B4088D 94.98%);
+    color: white;
+    padding: 10px 20px;
+    font-weight: 500;
+    border: none;
+}
+
+.header-sub-container {
+    margin-top: 115px;
+    border-radius: 30px;
+    background: linear-gradient(128deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    padding: 70px 0;
+}
+
+.about-btn {
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.14);
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    color: white;
+    margin: 30px 25px;
+    padding: 10px 20px;
+}
+
+.about-btn:hover {
+    color: white;
+}
+
+.header-sub-container h1 {
+    color: rgba(187, 33, 152, 0.38);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.header-sub-container p {
+    text-align: left;
+    color: white;
+    padding-left: 25px;
+}
+
+.box-card {
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding: 70px 20px 20px 20px;
+    position: relative;
+    height: 220px;
+}
+
+.box-card p {
+    text-align: center;
+}
+
+.icon-container {
+    border-radius: 139px;
+    background: #FFF;
+    box-shadow: 6px 6px 40px 0px rgba(0, 0, 0, 0.14);
+    position: absolute;
+    top: -25px;
+    right: 175px;
+}
+
+.w-530 {
+    width: 530px;
+}
+
+.btn-contact {
+    border-radius: 30px;
+    background: linear-gradient(140deg, #37013F 0%, #B4088D 94.98%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-width: 500;
+}
+
+.btn-contact:hover {
+    color: white;
+}
+
+.trust-card {
+    background: #FFF;
+    padding: 57px 20px;
+    margin-left: 20px;
+    box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.25);
+}
+
+.trust-card-2 {
+    background: #F1EEF0;
+    box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.25);
+}
+
+.bg-footer {
+    background: url("./Assets/fg-booter.svg");
+    height: 374px;
+    background-size: cover;
+    color: white;
+}
+
+.lets-container {
+    border-radius: 30px;
+    background: linear-gradient(128deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.01) 100%);
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    width: 350px;
+}
+
+.contact-footer-btn {
+    border-radius: 30px;
+    outline: none;
+    height: 50px;
+    width: 175px;
+    font-weight: 500;
+    color: white;
+    border: 3px solid rgba(255, 255, 255, 0.18);
+    background: linear-gradient(143deg, #37013F 0%, #B4088D 83.07%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.text-white {
+    color: white !important;
+}
+
+.expand {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+  padding-right: 20px;
+    color: white;
+    padding-left: 20px;
+    background: linear-gradient(140deg, #37013F 0%, #B4088D 94.98%);
+}
+

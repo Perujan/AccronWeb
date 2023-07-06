@@ -2,6 +2,10 @@ import React from "react";
 import "../Pages/Services.css";
 import Mbser from "../Assets/new/mb-ser.png";
 import Webser from "../Assets/new/websrc.png";
+import Img02 from "../Assets/02.png";
+import Img03 from "../Assets/03.png";
+import Img04 from "../Assets/04.png";
+import Img05 from "../Assets/05.png";
 import {
   FcTouchscreenSmartphone,
   FcAbout,
@@ -31,7 +35,7 @@ function Services() {
     <>
       <br />
       {/***** Content 1 *****/}
-      <section class="breadcrumb breadcrumb_bg1">
+      {/* <section class="breadcrumb breadcrumb_bg1">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
@@ -48,11 +52,14 @@ function Services() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      <div className={"my-5"}>
+                    <img src={Img02}/>
+                </div>
       {/***** Content 1 end *****/}
 
       {/***** Content 2 *****/}
-
+{/* 
       <div class="services section">
         <div class="container">
           <div class="row">
@@ -136,11 +143,11 @@ function Services() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/***** Content 2 end *****/}
       <br />
       {/***** Content 3 *****/}
-      <section class="py-6 bg-dark">
+      {/* <section class="py-6 bg-dark">
         <div class="container ">
           <div class="row justify-content-center mb-6 text-white">
             <div class="col-lg-6 text-center mx-auto mb-3 mb-md-5 mt-4">
@@ -229,9 +236,101 @@ function Services() {
           </div>
           <br />
         </div>
-      </section>
+      </section> */}
+      <div className={"my-5"}>
+                    <img src={Img05}/>
+                </div>
       {/***** Content 3 end *****/}
+      <div className={"my-5"}>
+                    <img src={Img03}/>
+                </div>
 
+                <div className={"my-5"}>
+                    <img src={Img04}/>
+                    <div class="col-lg-6 text-center mx-auto mb-3 mb-md-5 mt-4">
+              <h6 class="fw-bold fs-4 display-3 lh-sm">
+                Why you should choose <br />
+                Our Services{" "}
+              </h6>
+              <p class="mb-0">
+                We take a customer-centric approach to web development and
+                mobile application development, ensuring that we create
+                solutions that align with your business objectives and exceed
+                your expectations.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-6">
+              <div class="text-center px-lg-3">
+                <FcAdvertising size={90} />
+                <h5 class="fw-bold text-white">Ads Campaigns</h5>
+                <p class="mb-md-0 text-white">
+                  Developing custom mobile applications for iOS and Android
+                  platforms using cutting-edge technologies and user-centric
+                  design principles to enhance user experiences and drive
+                  business growth.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-6">
+              <div class="text-center px-lg-3">
+                <FcCurrencyExchange size={90} />
+                <h5 class="fw-bold text-white">Graphic Design</h5>
+                <p class="mb-md-0 text-white">
+                  You can relay on our amazing features list and also our
+                  customer services.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-6">
+              <div class="text-center px-lg-3">
+                <FcWikipedia size={90} />
+                <h5 class="fw-bold text-white">Web Development</h5>
+                <p class="mb-md-0 text-white">
+                  Developing and designing responsive, scalable, and
+                  user-friendly websites using the latest web technologies and
+                  standards to deliver seamless user experiences and drive
+                  online growth.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-6">
+              <div class="text-center px-lg-3">
+                <FcGallery size={90} />
+                <h5 class="fw-bold text-white">Digital Marketing</h5>
+                <p class="mb-md-0 text-white">
+                  Creating visually stunning and engaging designs for branding,
+                  marketing, and advertising purposes using innovative design
+                  tools and techniques to deliver impactful visual experiences.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-6">
+              <div class="text-center px-lg-3">
+                <FcMultipleDevices size={90} />
+                <h5 class="fw-bold text-white">
+                  Enterprise Software Development
+                </h5>
+                <p class="mb-md-0 text-white">
+                  Developing and implementing customized software solutions for
+                  enterprises to optimize business processes, improve
+                  productivity, and
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-6">
+              <div class="text-center px-lg-3">
+                <FcPortraitMode size={90} />
+                <h5 class="fw-bold text-white">Customer Support</h5>
+                <p class="mb-md-0 text-white">
+                  Providing reliable and responsive customer support services,
+                  including technical support, training, and maintenance, to
+                  ensure optimal user experiences and customer satisfaction.
+                </p>
+              </div>
+            </div>
+                </div>
       {/***** Content 4 *****/}
       <section class="py-6  ">
         <h6 class="fw-bold fs-4 display-3 lh-sm py-4 text-center">

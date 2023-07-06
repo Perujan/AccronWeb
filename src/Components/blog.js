@@ -1,6 +1,7 @@
-export default function Career(){
-    return(
+export default function Blog() {
+    return (
         <div className={"min-vh-100"}>
+            
         </div>
     )
 }
